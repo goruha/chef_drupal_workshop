@@ -1,0 +1,93 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+
+#a
+
+cookbook "apt"
+
+#b
+
+cookbook "build-essential"
+
+#c
+
+cookbook 'chef-client'
+cookbook "cron"
+
+#d
+
+cookbook 'drush'
+
+#e
+
+#f
+
+
+#g
+
+
+#h
+
+
+#i
+
+
+#j
+
+
+#k
+
+#l
+
+#m
+
+cookbook "mysql"
+cookbook "memcached",
+  :git => 'https://github.com/opscode-cookbooks/memcached.git',
+  :ref => 'master'
+
+#n
+
+cookbook "nano"
+cookbook "nginx"
+
+#o
+
+#cookbook "openssl"
+
+
+#p
+
+#cookbook 'platform_packages',
+#  :git => 'git://github.com/fnichol/chef-platform_packages.git',
+#  :ref => 'master'
+
+cookbook "php"
+
+#q
+
+#r
+
+#s
+
+
+#t
+
+#u
+
+
+#v
+
+#cookbook "vim"
+
+#w
+
+#x
+
+#y
+
+#z
+
