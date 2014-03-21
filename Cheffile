@@ -10,7 +10,7 @@ cookbook "apt"
 
 #b
 
-cookbook "build-essential"
+cookbook "build-essential", "1.4.4"
 
 #c
 
