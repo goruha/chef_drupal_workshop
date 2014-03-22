@@ -4,7 +4,10 @@ run_list(
   "recipe[build-essential]",
   "recipe[apt]",
   "recipe[mysql::server]",
-  "recipe[nginx]"
+  "recipe[nginx]",
+  "recipe[php]",
+  "recipe[php-fpm]",
+  "recipe[drupal]"
 )
 default_attributes(
   'mysql' => {

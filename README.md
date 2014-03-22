@@ -23,3 +23,7 @@ Clone this rep on your local
 * Install Librarian chef https://github.com/applicationsonline/librarian-chef
        `gem install bundler librarian`
 
+
+## Step 5
+
+vagrant plugin install vagrant-hostsupdater

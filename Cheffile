@@ -19,7 +19,9 @@ cookbook "cron"
 
 #d
 
-cookbook 'drush'
+cookbook 'drush',
+  :git => 'https://github.com/goruha/chef-drush.git',
+  :ref => 'add_alias_provider'
 
 #e
 
@@ -66,7 +68,7 @@ cookbook "nginx"
 #  :ref => 'master'
 
 cookbook "php"
-
+cookbook "php-fpm"
 #q
 
 #r
