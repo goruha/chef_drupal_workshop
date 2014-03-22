@@ -44,7 +44,7 @@ cookbook 'drush'
 
 #m
 
-cookbook "mysql"
+cookbook "mysql", "4.0.10"
 cookbook "memcached",
   :git => 'https://github.com/opscode-cookbooks/memcached.git',
   :ref => 'master'
