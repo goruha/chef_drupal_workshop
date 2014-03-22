@@ -14,12 +14,12 @@ cookbook "build-essential", "1.4.4"
 
 #c
 
-cookbook 'chef-client'
+#cookbook 'chef-client'
 cookbook "cron"
 
 #d
 
-cookbook 'drush'
+#cookbook 'drush'
 
 #e
 
