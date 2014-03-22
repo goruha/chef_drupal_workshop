@@ -1,5 +1,4 @@
 tmp
 *.lock
-cookbooks
 .idea
 .vagrant
