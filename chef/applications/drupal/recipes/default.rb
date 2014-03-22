@@ -27,3 +27,5 @@ end
 nginx_site resource_name do
   enable true
 end
+
+service "mysql"
