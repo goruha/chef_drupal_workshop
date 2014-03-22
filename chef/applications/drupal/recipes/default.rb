@@ -29,3 +29,7 @@ nginx_site resource_name do
 end
 
 service "mysql"
+
+execute "create_db" do
+  command "mysql -u root -p#{node['mysql']['server_root_password']} -e 'CREATE DATABASE IF NOT EXISTS ololo;'"
+end
